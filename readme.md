@@ -7,9 +7,9 @@ Download default format to current working directory:
 
 
 Maximum Quality (BIGSIZE):
-
+```bash
 docker run --rm -v$(pwd):/downloads robie2011/youtube-dl -f 'bestvideo+bestaudio' https://youtu.be/9bZkp7q19f0
-
+```
 
 
 ## Download specific format
