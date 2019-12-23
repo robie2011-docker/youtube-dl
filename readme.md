@@ -3,7 +3,13 @@
 ## Quick use
 Download default format to current working directory:
 
-    docker run --rm -v$(pwd):/downloads robie2011/youtube-dl --list-formats https://youtu.be/9bZkp7q19f0
+    docker run --rm -v$(pwd):/downloads robie2011/youtube-dl https://youtu.be/9bZkp7q19f0
+
+
+Maximum Quality (BIGSIZE):
+
+docker run --rm -v$(pwd):/downloads robie2011/youtube-dl -f 'bestvideo+bestaudio' https://youtu.be/9bZkp7q19f0
+
 
 
 ## Download specific format
